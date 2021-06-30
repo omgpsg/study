@@ -24,10 +24,5 @@
 	// 개발 싱크가 맞지 않은 상태에서 compile 하여 덮어씌우는것을 방지하기 위함.
 	"liveSassCompile.settings.compileOnWatch": false,
 
-	//scss 두번저장 안되게
-	"watcher": {
-		"files": "**/*.{css,map}",
-		"autoUpload": true,
-		"autoDelete": false
-	}
+
 }

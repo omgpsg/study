@@ -8,6 +8,7 @@
 
 
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,10 +17,353 @@
     
 
     <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/reset.min.css">
     <link rel="stylesheet" href="./assets/css/main.min.css">
 </head>
 <body>
-    
+    <div id="wrap">
+        <header id="header">
+            <div class="container">
+                <h1>Seulgi Park</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <div class="section main-visual">
+                <div class="swiper-container visula-container">
+                    <div class="swiper-wrapper visual-wrap">
+                        <div class="swiper-slide visual-cont01 cont01">
+                            <div class="visual-opa"></div>
+                            <div class="content-wrap">
+                                <div class="visual-txt">
+                                    <div class="tit"><p>Portfolio</p></div>
+                                    <div class="desc"><p>HTML, JavaScript, SASS 등 Front-end 개발 연습하기 위해 퍼블리싱 했습니다.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide visual-cont02 cont01">
+                            <div class="visual-opa"></div>
+                            <div class="content-wrap">
+                                <div class="visual-txt">
+                                    <div class="tit"><p>PROGRAMMING</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide visual-cont03 cont01">
+                            <div class="content-wrap">
+                                <div class="visual-img">
+                                    <img src="./images/visual03.png" alt="">
+                                </div>
+                                <div class="visual-txt">
+                                    <div class="tit">Lorem Ipsum</div>
+                                    <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                        <p>adipiscing elit. Vitae, maecenas aliquet</p>
+                                        <p>penatibus nunc et in quam. Faucibus facilisis</p>
+                                        <p>libero elit enim leo congue posuere.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--main-visual-->
+
+            <!--project-->
+            <section id="project"class="section project-cont">
+                <div class="inner">
+                    <h2>Projedct</h2>
+                    <div class="project-wrap">
+                        <div class="swiper-container project-ben01">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide item-wrap">
+                                    <div class="slide-item">
+                                        <div class="slide-img"><img src="./images/thumb01.png" alt=""></div>
+                                        <div class="slide-info">
+                                            <div class="project-tit">
+                                                <h3>Square</h3>
+                                                <p class="project-txt">티스토리 블로그 스킨입니다. 취미로 찍은 사진을 모아두었습니다.</p>
+                                            </div>
+                                            <a href="#" class="project-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-item">
+                                        <div class="slide-img"><img src="./images/thumb02.png" alt=""></div>
+                                        <div class="slide-info">
+                                            <div class="project-tit">
+                                                <h3>Square</h3>
+                                                <p class="project-txt">티스토리 블로그 스킨입니다. 취미로 찍은 사진을 모아두었습니다.</p>
+                                            </div>
+                                            <a href="#" class="project-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-item">
+                                        <div class="slide-img"><img src="./images/thumb03.png" alt=""></div>
+                                        <div class="slide-info">
+                                            <div class="project-tit">
+                                                <h3>Square</h3>
+                                                <p class="project-txt">티스토리 블로그 스킨입니다. 취미로 찍은 사진을 모아두었습니다.</p>
+                                            </div>
+                                            <a href="#" class="project-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-item">
+                                        <div class="slide-img"><img src="./images/thumb03.png" alt=""></div>
+                                        <div class="slide-info">
+                                            <div class="project-tit">
+                                                <h3>Square</h3>
+                                                <p class="project-txt">티스토리 블로그 스킨입니다. 취미로 찍은 사진을 모아두었습니다.</p>
+                                            </div>
+                                            <a href="#" class="project-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-wrap">
+                            <div class="swiper-container project-ben02">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="item-thumb"><img src="./images/thumb01.png" alt=""></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-thumb"><img src="./images/thumb02.png" alt=""></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-thumb"><img src="./images/thumb03.png" alt=""></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item-thumb"><img src="./images/thumb03.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next">
+                                    
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="section team-cont">
+                <div class="inner">
+                    <h2>Team</h2>
+                    <div class="team-tab">
+                        <div class="tabs-wrap">
+                            <div class="tab-nav">
+                                <ul>
+                                    <li class="active"><a href="#tab01">Designer</a></li>
+                                    <li><a href="#tab02">Back-end Developer</a></li>
+                                    <li><a href="#tab03">Front-end Developer</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-cont tab01 active">
+                                    <div class="tab-item tab-item01">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">Pispalan Valtatie</div>
+                                        <div class="position">Lead Designer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender famale"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-item tab-item02">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">Pispalan Valtatie</div>
+                                        <div class="position">Lead Designer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender famale"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-item tab-item03">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">Pispalan Valtatie</div>
+                                        <div class="position">Lead Designer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender famale"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-cont tab02">
+                                    <div class="tab-item tab-item01">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">Domingo Saez</div>
+                                        <div class="position">Senior Developer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender famale"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-item tab-item02">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">Davide Perez</div>
+                                        <div class="position">Junior Developer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender male"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-cont tab03">
+                                    <div class="tab-item tab-item01">
+                                        <div class="team-img">
+                                            <img src="./images/img-test.png" alt="">
+                                        </div>
+                                        <div class="name">LEGO!</div>
+                                        <div class="position">Front-end Developer</div>
+                                        <div class="team-link">
+                                            <ul>
+                                                <li><a href="mailto:tmfxoddl117@maver.com" class="mail"></a></li>
+                                                <li><a href="tel:02-000-0000" class="phone"></a></li>
+                                                <li>
+                                                    <p class="gender famale"></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section contact-cont">
+                <div class="inner">
+                    <div id="contact">
+                        <div class="contact-wrap">
+                            <div class="contact-img">
+                                <img src="./images/contact-img.png" alt="">
+                            </div>
+                            <div class="contact-form">
+                                <form action="">
+                                    <div class="user-form">
+                                        <label for="user-name">Company or Your-name</label>
+                                        <input type="text" id="user-name" placeholder="Company or Your-name">
+                                    </div>
+                                    <div class="user-form">
+                                        <label for="user-email">Email</label>
+                                        <input type="email" id="user-email" placeholder="webmaster@example.com">
+                                    </div>
+                                    <div class="user-form">
+                                        <label for="user-messages">Messages</label>
+                                        <textarea name="" id="user-messages" cols="30" rows="10" placeholder="Please enter your request."></textarea>
+                                    </div>
+                                    <div class="send-btn">
+                                        <button>Send Request <i class="contact-ico"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <h2 class="blind">푸터</h2>
+            <div class="footer2021">ⓒ 2021 <strong>Seulgi Park</strong></div>
+            <div class="copyright">
+                <a href="https://jquery.com" target="_blank">jQuery</a>
+                <a href="https://swiperjs.com" target="_blank">Swiper</a>
+                <a href="https://fontawesome.com" target="_blank">Font Awesome 5</a>
+                <a href="https://randomuser.me/" target="_blank">Random User Generator</a>
+                <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+                <a href="https://www.vecteezy.com/free-vector/website" target="_blank">Website Vectors by Vecteezy</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+
+        //헤더
+
+        var visualSlide = new Swiper(".visula-container", {
+            autoplay: {
+                delay: 30000,  
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+        });
+
+        
+        var gallerythumbs = new Swiper(".project-ben02", {
+            slidesPerView: 2.5,
+            spaceBetween: 15,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+        var galleryTop = new Swiper(".project-ben01", {
+            slidesPerView: 1,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            slideToClickedSlide: true,
+            thumbs: {
+                swiper: gallerythumbs,
+            },
+        });
+        // galleryTop.controller.control = gallerythumbs;
+        // gallerythumbs.controller.control = galleryTop;
+    </script>
 </body>
 </html>
